@@ -1,6 +1,6 @@
 ﻿{
   "name": "http-helper",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "httpHelper，简易的网络接口调用工具",
   "private": false,
   "scripts": {
