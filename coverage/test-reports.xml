@@ -1,0 +1,9 @@
+<testsuite name="Mocha Tests" tests="7" failures="0" errors="0" skipped="0" timestamp="Tue, 29 Mar 2016 02:30:03 GMT" time="0.151">
+<testcase classname="test mochatest/Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="test mochatest/Array #indexOf()" name="should return -1 when the value is not present" time="0"/>
+<testcase classname="test tool/httpHelper #get" name="get方式请求不报错" time="0.075"/>
+<testcase classname="test tool/httpHelper #get" name="get方式请求超时" time="0.017"/>
+<testcase classname="test tool/httpHelper #post" name="post方式请求不报错" time="0.015"/>
+<testcase classname="test tool/httpHelper #post" name="post方式发送json数据不报错" time="0.015"/>
+<testcase classname="test tool/httpHelper #request" name="get方式请求，直接返回二进制数据" time="0.014"/>
+</testsuite>
