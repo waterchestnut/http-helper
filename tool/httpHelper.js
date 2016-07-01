@@ -33,6 +33,7 @@ var httpHelper = {
         var httpLib = http;
         if (options.protocol && options.protocol === 'https:') {
             httpLib = https;
+            options.rejectUnauthorized = false;
         }
         var content = {};
         if (options.json) {
@@ -77,7 +78,7 @@ var httpHelper = {
 
         if (timeout && timeout > 0) {
             req.setTimeout(timeout, function () {
-                callback(new Error('request timeout'), '');
+                callback(new Error('request timeout'), '', null);
             });
         }
 
